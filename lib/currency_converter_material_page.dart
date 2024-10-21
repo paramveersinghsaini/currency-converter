@@ -41,7 +41,6 @@ class _CurrencyConverterPageState extends State<CurrencyConverterPage> {
                     Text(
                       result != 0
                           ? 'INR ${result.toStringAsFixed(2)}'
-                          //hi
                           : 'INR 0.00',
                       style: const TextStyle(
                         fontSize: 48,
